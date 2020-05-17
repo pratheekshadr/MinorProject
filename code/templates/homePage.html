@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Notes Generator</title>
+    </head>
+    <body align="center">
+        <div id="appname" >Notes Generator</div>
+        <br><br>
+        <div id="home">
+                <form action="notes" method="POST" enctype=multipart/form-data><br>
+                    Select Video:
+                    <input id = 'input_video' type="file" name = "file" accept=".mp4">
+                    <br><br>
+                    <input id="upload_btn" type="submit" placeholder = "Upload" value = "Generate Notes">      
+                </form>
+        </div>
+        <style>
+            body {
+                background-image: url("././static/images/homePagebg.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-family: "Comic Sans MS";
+            }
+            #appname{
+                font-size: 40px;
+                margin-top: 50px;
+            }
+
+            form{
+                font-size: 30px;
+            }
+            #home{
+                background-color: whitesmoke;
+                height: 300px;
+                width: 500;
+                margin-left: 450px;
+            }
+            #upload_btn{
+                font-size: 30px;
+                background-color:rgb(92, 164, 212);
+                color: white;
+                height: 60px;
+                width: 400px;
+                font-family: "Comic Sans MS";
+            }
+        </style>
+    </body>
+</html>

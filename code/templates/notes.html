@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Notes Generator</title>
+    </head>
+    <body align="center">
+        <div id="appname" >Notes Generator</div>
+        <br><br>
+        <div id="home">
+                <form action="download" method="POST">
+                    <textarea id="notes" name="notes">{{text}}</textarea><br><br>
+                    <div id="btns">
+                        <input id="download_pdf" type="submit" value="download pdf and ppt"><br>
+                    </div>
+                    
+                </form>   
+        </div>
+        <style>
+            #appname{
+                background-color:rgb(92, 164, 212);
+                height: 70px;
+                width: 500;
+                margin-left: 450px;
+                color:white;
+                font-family: "Comic Sans MS";
+            }
+            #notes{
+                height:400px;
+                width: 1000px;
+                overflow: scroll;
+                background-color: whitesmoke;
+                font-family: "Comic Sans MS";
+                font-size: 20px;
+            }
+            body {
+                background-image: url("././static/images/homePagebg.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-family: "Comic Sans MS";
+            }
+            #appname{
+                font-size: 40px;
+                margin-top: 50px;
+            }
+
+            #btns{
+                background-color: whitesmoke;
+                height: 100px;
+                width: 500;
+                margin-left: 450px;
+            }
+            #download_pdf, #download_ppt{
+                margin: 20px;
+                font-size: 30px;
+                background-color:rgb(92, 164, 212);
+                color: white;
+                height: 60px;
+                width: 400px;
+                font-family: "Comic Sans MS";
+            }
+        </style>
+    </body>
+</html>
