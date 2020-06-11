@@ -28,7 +28,7 @@ These are the functionalities available in the application:
 
 ## Installing Dependencies
 ##### Command to install flask web framework and libraries:
-`$ pip3 install <dependency_name>`
+`$ pip3 install <dependency_name>` or `$pip3 install -r requirements.txt`
 ##### To download the punctuator pre-trained model, refer the following repository, and after downloading the model, rename it as model.pcl, save it in the path where main.py exists
 [punctuator2](https://github.com/ottokart/punctuator2)
 
