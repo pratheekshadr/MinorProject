@@ -1,0 +1,8 @@
+flask
+pydub
+SpeechRecognition
+punctuator
+fpdf
+python-pptx
+sumy
+sklearn
