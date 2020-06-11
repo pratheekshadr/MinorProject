@@ -27,18 +27,25 @@ These are the functionalities available in the application:
 * Punctuator pretrained model: used to punctuate the unstructured text generated
 
 ## Installing Dependencies
+#### Install ffmpeg framework
+* On Mac OS X
+`$ brew install ffmpeg'
+
+* On Ubuntu 
+`$ sudo apt install ffmpeg`
+
 ##### Command to install flask web framework and libraries:
-`$ pip3 install <dependency_name>` or `$pip3 install -r requirements.txt`
+`$ pip3 install <dependency_name>` or `$ pip3 install -r requirements.txt`
+
 ##### To download the punctuator pre-trained model, refer the following repository, and after downloading the model, rename it as model.pcl, save it in the path where main.py exists
 [punctuator2](https://github.com/ottokart/punctuator2)
 
 ##### Procedure to run the application and generate notes(assuming all the dependencies are installed)
 * Clone the repository
 * Run main.py on command prompt/terminal
-
     `$python3 main.py`
+    
 * Open browser and go to:
-
     `localhost:5000/homePage`
 
 * Upload mp4 format video and click on 'Generate notes' button
