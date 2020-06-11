@@ -29,7 +29,7 @@ These are the functionalities available in the application:
 ## Installing Dependencies
 #### Install ffmpeg framework
 * On Mac OS X
-`$ brew install ffmpeg'
+`$ brew install ffmpeg`
 
 * On Ubuntu 
 `$ sudo apt install ffmpeg`
